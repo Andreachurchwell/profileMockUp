@@ -1,0 +1,75 @@
+
+#main{
+    width: 100vw;
+    height: 100vh;
+   
+
+}
+#header{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(92, 63, 63);
+    color: white;
+}
+.button2{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(105, 105, 245);
+}
+.topLeftcard{
+    width: 30%;
+    height: 40%;
+  
+    margin: 15%;
+    border: 2px solid black;
+   
+   
+
+}
+.bottomLeftcard{
+    width: 30%;
+    height: 40%;
+  
+    margin: 5%;
+    border: 2px solid black;
+    
+   
+}
+.topRightcard{
+    width: 30%;
+    height: 40%;
+ 
+    margin: 5%;
+    border: 2px solid black; 
+   
+    
+}
+.bottomRightcard{
+    width: 30%;
+    height: 40%;
+
+    margin: 5%;
+    border: 2px solid black;
+
+
+}
+.header{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 25%;
+}
+.header2{
+    background-color: rgb(160, 165, 170);
+    width: 100%;
+    height: 18%;
+}
+
+
