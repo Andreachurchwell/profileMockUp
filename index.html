@@ -9,34 +9,230 @@
 </head>
 
 <body>
-    <div id="main" class="main">
 
-        <div id="header">
-            <button class="button">Profile</button>
-            <button class="button">Home</button>
-            <button class="button">My Profile</button>
-            <button class="button">Find Connections</button>
-            <button class="button2">Sign Out</button>
+
+
+    <header>
+        <nav>
+
+
+            
+            <div class="links2">
+                <h1>Profile</h1>
+            </div>
+
+            <div class="links profileText">
+                <p>Home</p>
+            </div>
+
+            <div class="links">
+                <p style="color: #8d8264">My Profile</p>
+            </div>
+
+            <div class="links grow">
+                <p>Find Connections</p>
+            </div>
+
+            <div id="signIn">
+                <button id="signOut">Sign Out</button>
+            </div>
+
+        </nav>
+
+    </header>
+    <main>
+
+        <div id="content">
+            <div id="left">
+
+                <div id="topLeftBox">
+
+                    <div id="topLeftBanner">
+                        <img src="Friends.jpg" alt="" class="profilePicture">
+                    </div>
+
+
+
+                    <div id="topLeftCard">
+                        <div id="bio">
+                            <h1>Noah Biggs</h1>
+
+                            <h4> <img src="icons/map-marker.png" alt="" class="mapM"> Greater Chicagoland Area</h4>
+                            <p>Web Developer | Software Engineer | Problem Solver</p>
+                            <p>Student of all, master of none.</p>
+
+                            <a href=""> <img src="icons/gear.png" alt="" class="gear"> edit profile</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="bottomLeftBox">
+                    <div id="bottomLeftBanner">
+                        <h2>Background</h2>
+                    </div>
+
+                    <div id="bottomLeftCard">
+                        <div id="backgroundHistory">
+                            <h3>Coding Dojo-Full Stack Bootcamp</h3>
+                            <p>April 2021 - September 2021</p>
+                            <p>Learned HTML5, CSS, JavaScript, and 3 Full-Stacks!</p>
+                            <p>Python/Flask/MySQL, MERN, C#/ASP.NET Core/MySQL, some Typescript, and Rust</p>
+                            <h3>Perservere Code Camp - Full Stack MERN</h3>
+                            <p>2022 - Current Continued getting a deeper understanding of MERN!</p>
+                            <p>Picking up new skills on the side, like Rust, TS, Next.js, and Astro!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div id="right">
+
+                <div id="topRightBox">
+
+                    <div id="topRightBanner">
+                        <div id="counter"></div>
+                        <div id="requests">
+                            <h2>Connection Requests</h2>
+                        </div>
+                    </div>
+
+                    <div id="topRightCard">
+
+                        <div class="requestBody">
+
+
+                            <div id="profile">
+                                <img src="icons/profile-icon.jpg" alt="" class="profileIcon">
+
+                            </div>
+
+                            <div id="name">
+                                <h3>Nate V.</h3>
+                            </div>
+
+
+                            <div class="action">
+                                <img src="icons/accept-circle.png" alt="" class="acceptIcon">
+                            </div>
+
+                            <div class="action" class="deniedIcon">
+                                <img src="icons/close-circle.png" alt="" class="deniedIcon">
+                            </div>
+
+                        </div>
+
+                        <div class="requestBody">
+
+                            <div id="profile">
+                                <img src="icons/profile-icon.jpg" alt="" class="profileIcon">
+                            </div>
+
+                            <div id="name">
+                                <h3>Malcolm V.</h3>
+                            </div>
+
+                            <div class="action">
+                                <img src="icons/accept-circle.png" alt="" class="acceptIcon">
+                            </div>
+
+                            <div class="action">
+                                <img src="icons/close-circle.png" alt="" class="deniedIcon">
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div id="bottomRightBox">
+
+                    <div id="bottomRightBanner">
+                        <div id="bottomRightRequests">
+                            <h2>Your Connections</h2>
+                        </div>
+
+                    </div>
+
+                    <div class="contactCard">
+
+                        <div id="conProfile">
+                            <img src="icons/profile-icon.jpg" alt="" class="profileIcon2">
+                        </div>
+
+                        <div id="conName">
+                            <div id="name">
+                                <h3>Howard I.</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contactCard">
+
+                        <div id="conProfile">
+                            <img src="icons/profile-icon.jpg" alt="" class="profileIcon2">
+                        </div>
+
+                        <div id="conName">
+                            <div id="name">
+                                <h3>Zion T.</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contactCard">
+
+                        <div id="conProfile">
+                            <img src="icons/profile-icon.jpg" alt="" class="profileIcon2">
+                        </div>
+
+                        <div id="conName">
+                            <div id="name">
+                                <h3>Anthony B</h3>.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contactCard">
+
+                        <div id="conProfile">
+                            <img src="icons/profile-icon.jpg" alt="" class="profileIcon2">
+                        </div>
+
+                        <div id="conName">
+                            <div id="name">
+                                <h3>Randall N.</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="bottomRightFooter">
+                        <a href="" class="viewMore">View More</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
         </div>
 
-        <!-- maybe wrap the 2 in a div? -->
-        <div class="topLeftcard">
-           <header class="header"></header>
-        </div>
-        <div class="bottomLeftcard">
-            <header class="header2">
-               
-            </header>
-        </div>
 
 
-        <!-- maybe wrap the 2 in a div? -->
-        <div class="topRightcard">
-            <header class="header2"></header>
-        </div>
-        <div class="bottomRightcard">
-            <header class="header2"></header>
-        </div>
+
+
+
+
+    </main>
 
 
 
@@ -46,7 +242,10 @@
 
 
 
-    </div>
+
+
+
+
 </body>
 
 </html>
